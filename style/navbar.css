@@ -1,8 +1,34 @@
 .navbar {
     width: 100%;
-    height: 60px;
+    height: 62px;
     overflow: hidden;
-    background-color: red;
+    background-color: white;
+}
+
+.navbar-line-wrapper {
+    height: 2px;
+    background-color: white;
+}
+
+.navbar-line-inner {
+    width: 1200px;
+    height: 2px;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+.navbar-line-col1 {
+    width: 26%;
+    float: left;
+    height: 100%;
+    background-color: yellow;
+}
+
+.navbar-button-line {
+    width: 33%;
+    float: left;
+    height: 100%;
+    background-color: #ddd;
 }
 
 .navbar-inner {
@@ -10,7 +36,7 @@
     height: 60px;
     margin: 0px auto 0px auto;
     overflow: hidden;
-    background-color: #ffdd11;
+    background-color: white;
 }
 
 
@@ -18,7 +44,7 @@
     width: 26%;
     float: left;
     height: 100%;
-    background-color: green;
+    background-color: red;
 }
 
 .navbar-col2 {
@@ -26,14 +52,14 @@
     margin-left: 2%;
     float: left;
     height: 100%;
-    background-color: tomato;
+    background-color: white;
 }
 
 .navbar-col3 {
     width: 26%;
     float: right;
     height: 100%;
-    background-color: purple;
+    background-color: white;
 }
 
 .navbar-button {
